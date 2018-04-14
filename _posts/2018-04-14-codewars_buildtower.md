@@ -25,16 +25,23 @@ Have fun!
 for example, a tower of 3 floors looks like below
 [
   '  *  ', 
+  
   ' *** ', 
+  
   '*****'
 ]
 and a tower of 6 floors looks like below
 [
   '     *     ', 
+  
   '    ***    ', 
+  
   '   *****   ', 
+  
   '  *******  ', 
+  
   ' ********* ', 
+  
   '***********'
 ]
 
@@ -42,7 +49,7 @@ and a tower of 6 floors looks like below
 
 对python的基础库不太了解，用了个笨办法解决：
 
-```
+```python
 def tower_builder(n_floors):
     # build here
     s = '*'
@@ -60,7 +67,7 @@ float类型不能直接与字符串相乘，这样会出错：
 
 看到别人的解法，才知道原来string有个center方法，╮(╯▽╰)╭
 
-```
+```python
 def tower_builder(n):
     return [("*" * (i*2-1)).center(n*2-1) for i in range(1, n+1)]
 ```
