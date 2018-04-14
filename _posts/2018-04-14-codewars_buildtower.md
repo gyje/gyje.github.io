@@ -9,7 +9,8 @@ tags: [codewars,python]
 ---
 
 题目要求:
->Description:
+```txt
+Description:
 Build Tower
 Build Tower by the following given argument:
 number of floors (integer and always greater than 0).
@@ -25,26 +26,19 @@ Have fun!
 for example, a tower of 3 floors looks like below
 [
   '  *  ', 
-  
   ' *** ', 
-  
   '*****'
 ]
 and a tower of 6 floors looks like below
 [
   '     *     ', 
-  
   '    ***    ', 
-  
   '   *****   ', 
-  
   '  *******  ', 
-  
   ' ********* ', 
-  
   '***********'
 ]
-
+```
 简单来说就是函数返回一个列表，里面是一个等差数列组成的`*`，注意空格。
 
 对python的基础库不太了解，用了个笨办法解决：
