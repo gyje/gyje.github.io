@@ -136,13 +136,14 @@
 					appKey: 'Pk3duLJXHcWAXVTNf6JpNpIz',
 					placeholder: '(*^_^*)',
 					path: flag(),
-					meta: ['nick','mail','url']
+					meta: ['nick','mail','url'],
+					avatar: 'robohash',
 				})
 
 				var text = `<!-- id 将作为查询条件 --><span id="${window.location.pathname}" class="leancloud-visitors" data-flag-title="Your Article Title"><em class="post-meta-item-text">阅读量 </em><i class="leancloud-visitors-count">1000000</i></span>`;
-				document.getElementById("output").innerHTML = text;
+				// document.getElementById("output").innerHTML = text;
 			</script>
-			<div id="output"></div>
+			<!-- <div id="output"></div> -->
 			{% endif %}
         </div>
     </section>
