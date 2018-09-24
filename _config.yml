@@ -32,8 +32,13 @@ nightMode: true
 
 # Comments 评论功能
 comments:
+  default_hidden: true
+  
   disqus: false
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+  
+  livere: true
+  livere_uid: MTAyMC8yODEwMC80Njcz
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
