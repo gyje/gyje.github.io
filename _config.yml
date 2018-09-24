@@ -22,7 +22,7 @@ footer:
 author: 'Admin'
 nickname: '向高'
 bio: '开发 & 记录 & 分享 & 创造'
-avatar: '/assets/img/profile.png'
+avatar: 'https://upload-images.jianshu.io/upload_images/2348227-4ccd832cf7ca2cdd.jpg'
 
 # Search
 search: true
@@ -70,10 +70,10 @@ postPatterns: 'circuitBoard'
 # SNS settings 配置社交网站
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
-  weibo: '//weibo.com/lovecolcol'
-  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
-  instagram: '//www.instagram.com/steveliaocn'
-  github: '//github.com/kaeyleo'
+  weibo: ''
+  juejin: ''
+  instagram: ''
+  github: ''
   email: 'mailto:gyje@foxmail.com'
 
 # Tags 设置标签
