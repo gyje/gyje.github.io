@@ -41,7 +41,7 @@ comments:
   livere_uid: MTAyMC8zOTg4NS8xNjQxMg==
 
 reward:
-  enable: true
+  enable: false
   reward_comment: '真诚赞赏 手有余香'
   wechatpay: 'http://ray-eldath.image.alimmdn.com/basic/wechatpay.jpg'
   alipay: 'http://ray-eldath.image.alimmdn.com/basic/alipay.jpg'
