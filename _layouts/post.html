@@ -130,7 +130,7 @@
 					return path;
 				}
 				function visible(){
-					document.getElementById("visible").id = flag();
+					document.getElementById("visible").id = window.location.pathname;
 				}
 				new Valine({
 					el: '#vcomments',
