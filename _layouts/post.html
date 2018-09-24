@@ -203,7 +203,16 @@
   {% if site.comments.livere %}
 	<script>
     (function(d, s) {
-    var j, e = d.getElementsByTagName(s)[0];@@ -168,9 +212,8 @@ <h2 class="post-subtitle">{{ page.subtitle }}</h2>e.parentNode.insertBefore(j, e);})(document, 'script');
+      var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') {
+         return;
+       }
+ 
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+       e.parentNode.insertBefore(j, e);
+    })(document, 'script');
 	</script>
   {% endif %}
   <script src="/assets/js/prism.js"></script>
