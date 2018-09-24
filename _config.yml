@@ -32,16 +32,18 @@ nightMode: true
 
 # Comments 评论功能
 comments:
-  default_hidden: true
+  default_hidden: false
   
   disqus: false
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
   
-  livere: true
+  livere: false
   livere_uid: MTAyMC8zOTg4NS8xNjQxMg==
   
   gitman: false
   gitman_id: 'xxxx'
+  
+  valine: true
 
 reward:
   enable: false
