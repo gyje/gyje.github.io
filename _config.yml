@@ -34,10 +34,10 @@ nightMode: true
 comments:
   default_hidden: true
   
-  disqus: false
+  disqus: true
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
   
-  livere: true
+  livere: false
   livere_uid: MTAyMC8zOTg4NS8xNjQxMg==
 
 reward:
