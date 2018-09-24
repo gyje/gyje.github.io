@@ -34,11 +34,14 @@ nightMode: true
 comments:
   default_hidden: true
   
-  disqus: true
+  disqus: false
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
   
-  livere: false
+  livere: true
   livere_uid: MTAyMC8zOTg4NS8xNjQxMg==
+  
+  gitman: false
+  gitman_id: 'xxxx'
 
 reward:
   enable: false
