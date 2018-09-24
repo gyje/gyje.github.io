@@ -125,18 +125,24 @@
 			<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 			<div id="vcomments"></div>
 			<script>
-				var flag = window.location.pathname;
+				function flag(){
+					var path = window.location.pathname;
+					return path;
+				}
+				function visible(){
+					document.getElementsById("visible").id = flag();
+				}
 				new Valine({
 					el: '#vcomments',
 					appId: 'Vn0zDks7bXJ7QObMAsueTG44-gzGzoHsz',
 					appKey: 'Pk3duLJXHcWAXVTNf6JpNpIz',
 					placeholder: '(*^_^*)',
-					path: flag,
+					path: flag(),
 					meta: ['nick','mail','url']
 				})
 			</script>
 			<!-- id 将作为查询条件 -->
-			<span id=<script>window.location.pathname</script> class="leancloud-visitors" data-flag-title="Your Article Title">
+			<span id="visible" class="leancloud-visitors" data-flag-title="Your Article Title">
 			<em class="post-meta-item-text">阅读量 </em>
 			<i class="leancloud-visitors-count">1000000</i>
 			</span>
