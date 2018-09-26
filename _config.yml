@@ -12,6 +12,7 @@ nav:
   home: '/'
   tags: '/tags.html'
   archives: '/archives.html'
+  message: '/message.html'
   rss: '/rss.xml'
 
 # Footer
