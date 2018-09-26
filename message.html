@@ -1,0 +1,35 @@
+---
+title: ♥Message
+layout: default
+---
+
+{% include header.html %}
+
+<div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
+    <h2>Message Board</h2>
+</div>
+
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+<main class="tags-content" style="margin-top: 0px">
+  <ul class="tags-list" style="padding:40px">
+  <div id="vcomments"></div>
+  <script>
+  function flag(){
+  var path = window.location.pathname;
+  return path;
+  }
+  new Valine({
+  el: '#vcomments',
+  appId: 'Vn0zDks7bXJ7QObMAsueTG44-gzGzoHsz',
+  appKey: 'Pk3duLJXHcWAXVTNf6JpNpIz',
+  placeholder: '(*^_^*)',
+  path: flag(),
+  meta: ['nick','mail','link'],
+  avatar: 'robohash',
+  })
+  </script>
+  </ul>
+</main>
+{% include footer.html %}
