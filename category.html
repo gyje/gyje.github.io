@@ -6,13 +6,13 @@ layout: default
 {% include header.html %}
 
 <div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
-    <h2>Category</h2>
+    <h2>CATEGORIES</h2>
 </div>
 
 
 <main class="tags-content" style="margin-top: 0px">
   {% for category in site.categories %}
-  <li><a name="{{ category | first }}">{{ category | first }}</a>
+  <li class="tags-list" style="padding:40px"><a name="{{ category | first }}">{{ category | first }}</a>
     <ul class="tags-list" style="padding:40px">
     {% for posts in category %}
       {% for post in posts %}
