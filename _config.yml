@@ -11,7 +11,7 @@ baseurl: ''
 nav:
   home: '/'
   tags: '/tags.html'
-  message: '/category.html'
+  # message: '/category.html'
   archives: '/archives.html'
   message: '/message.html'
   rss: '/rss.xml'
@@ -54,7 +54,7 @@ reward:
   alipay: 'http://ray-eldath.image.alimmdn.com/basic/alipay.jpg'
 
 # MathJax 公式支持 by Ray-Eldath
-mathjax: true
+mathjax: false
 
 # Share
 social-share: true
