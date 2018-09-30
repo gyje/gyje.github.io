@@ -11,24 +11,16 @@ layout: default
 
 
 <main class="tags-content" style="margin-top: 0px">
-  <ul class="tags-list" style="padding:40px">
-    {% for post in site.categories %}
-        {% unless post.next %}
-          <h3 style="margin-bottom: 8px">{% post.title %}</h3>
-        {% else %}
-        {% capture year %}{{ post.date | date: "%Y-%m-%d" }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: "%Y-%m-%d" }}{% endcapture %}
-        
-        {% if year != nyear %}
-           <h3 style="margin-bottom: 8px">{{ post.title }}</h3>
-        {% endif %}
-        {% endunless %}
-       
-       <li> 
-           <a href="{{ post.url }}" style="color: black">{{ post.date | date:"%T" }}  {{ post.title }}</a>
-       </li>
-       
+  {% for category in site.categories %}
+  <li><a name="{{ category | first }}">{{ category | first }}</a>
+    <ul class="tags-list" style="padding:40px">
+    {% for posts in category %}
+      {% for post in posts %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
     {% endfor %}
-  </ul>
+    </ul>
+  </li>
+  {% endfor %}
 </main>
 {% include footer.html %}
