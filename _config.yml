@@ -46,12 +46,6 @@ comments:
   gitman_id: 'xxxx'
   
   valine: true
-
-# 阅读次数
-leancloud:
-  enable: true
-  app_id: Vn0zDks7bXJ7QObMAsueTG44-gzGzoHsz
-  app_key: Pk3duLJXHcWAXVTNf6JpNpIz
   
 reward:
   enable: false
