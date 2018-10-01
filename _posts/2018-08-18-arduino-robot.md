@@ -5,7 +5,7 @@ subtitle: ''
 date: 2018-08-18 14:02:12
 categories: 技术
 cover: 'https://isujin.com/wp-content/uploads/2018/03/wallhaven-614370.jpg'
-tags: Arduino IOT
+tags: 物联网开发
 ---
 
 这是毕业设计做的一个小项目，实现了一个利用QQ机器人控制arduino开关灯的物联网应用，论文设计中考虑了多种情况，用到了很多东西，还实现了一个DSL语法解析引擎，用来做语义判断，这里我们不介绍这么多，只做一个最简单的实现。

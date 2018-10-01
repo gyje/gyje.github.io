@@ -47,6 +47,12 @@ comments:
   
   valine: true
 
+# 阅读次数
+leancloud:
+  enable: true
+  app_id: Vn0zDks7bXJ7QObMAsueTG44-gzGzoHsz
+  app_key: Pk3duLJXHcWAXVTNf6JpNpIz
+  
 reward:
   enable: false
   reward_comment: '真诚赞赏 手有余香'
