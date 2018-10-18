@@ -58,7 +58,7 @@ mathjax: false
 
 # Share
 social-share: true
-social-share-items: ['wechat', 'qzone', 'douban', 'twitter', 'weibo']
+social-share-items: ['qq', 'weibo', 'qzone', 'douban', 'twitter']
 
 # b2t 回到顶部 by Ray-Eldath
 b2t: true
